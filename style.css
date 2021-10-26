@@ -1,0 +1,85 @@
+body{
+  background-image: url(background.jpg);
+  background-size: 100%;
+}
+
+.container{
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.logo{
+  display: inline-block;
+  width: 30%;
+  margin-top: 10%;
+}
+
+.logotext{
+  color: #00dd00;
+  font-family: "Trebuchet MS";
+  display: inline-block;
+  margin: auto;
+}
+
+.buttons{
+  border: 10px solid #00dd00;
+  background-color: #00dd00;
+  border-radius: 5px;
+}
+
+
+.textdecoration{
+  text-align: left;
+  font-family: "Trebuchet MS";
+  color: white;
+  line-height: 15px;
+  font-size: 10px;
+}
+
+#orangeprogress {
+ width: 300px;
+ border: 1px solid white;
+ position: relative;
+ padding: 1px;
+}
+
+
+#orangebar {
+ height: 20px;
+ background-color: orange;
+ width: 50%;
+}
+
+#greenprogress {
+ width: 300px;
+ border: 1px solid white;
+ position: relative;
+ padding: 1px;
+}
+
+
+#greenbar {
+ height: 20px;
+ background-color: #00dd00;
+ width: 80%;
+}
+
+#redprogress {
+ width: 300px;
+ border: 1px solid white;
+ position: relative;
+ padding: 1px;
+}
+
+
+#redbar {
+ height: 20px;
+ background-color: red;
+ width: 30%;
+}
